@@ -58,5 +58,5 @@ public class ElasticsearchTransportClient {
 
     private final Object lock = new Object();
 
-    private final Logger logger = LoggerFactory.getLogger(ElasticsearchTransportClient.class);
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 }
